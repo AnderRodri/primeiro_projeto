@@ -29,6 +29,7 @@ body {
   background-position: top center;
   background-size: 40cm;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -146,3 +147,14 @@ footer {
 img {
   border-radius: 50%;
 }
+
+/*@media (min-width: 700px) {
+  :root {
+    --bg-url: url(#);
+  }
+
+  .light {
+    --bg-url: url(#);
+  }
+}
+*/
